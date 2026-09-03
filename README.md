@@ -1,5 +1,7 @@
 # Stabilomics
 
+[![CI](https://github.com/williamtbarker/stabilomics/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/williamtbarker/stabilomics/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/williamtbarker/stabilomics)](https://github.com/williamtbarker/stabilomics/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Stabilomics is a deterministic Python CLI and library for asking a sharper question than “which
 features did my model select?”:
 
