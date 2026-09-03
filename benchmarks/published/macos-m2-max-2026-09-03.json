@@ -1,0 +1,133 @@
+{
+  "cases": [
+    {
+      "case": "n160-p24-b40-c0p0",
+      "commit": "de1313b52d006a8a39528aa474d8d40eaa19de93",
+      "metrics": {
+        "contamination": 0.0,
+        "features": 24,
+        "input_sha256": "122527b088fab20da231fea4605e3778585a10b5ab0401653089c6a508061571",
+        "median_pairwise_jaccard": 1.0,
+        "planted_precision": 1.0,
+        "planted_recall": 1.0,
+        "samples": 160,
+        "selected": [
+          "gene_001",
+          "gene_002",
+          "gene_003"
+        ],
+        "selected_count": 3,
+        "subsamples": 40,
+        "tool_status": "PASS"
+      },
+      "n": 3,
+      "peak_rss_mib_max": 78.547,
+      "peak_rss_mib_median": 70.781,
+      "peak_rss_mib_min": 70.016,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "stabilomics",
+      "wall_seconds_cv_percent": 1.412,
+      "wall_seconds_max": 0.472866,
+      "wall_seconds_median": 0.463277,
+      "wall_seconds_min": 0.460289
+    },
+    {
+      "case": "n160-p24-b40-c0p08",
+      "commit": "de1313b52d006a8a39528aa474d8d40eaa19de93",
+      "metrics": {
+        "contamination": 0.08,
+        "features": 24,
+        "input_sha256": "bf2f7e2c39a143a33b4a8d2279943a041fcbed11018ec9cc88884c6e572ef757",
+        "median_pairwise_jaccard": 1.0,
+        "planted_precision": 1.0,
+        "planted_recall": 1.0,
+        "samples": 160,
+        "selected": [
+          "gene_001",
+          "gene_002",
+          "gene_003"
+        ],
+        "selected_count": 3,
+        "subsamples": 40,
+        "tool_status": "PASS"
+      },
+      "n": 3,
+      "peak_rss_mib_max": 70.406,
+      "peak_rss_mib_median": 70.234,
+      "peak_rss_mib_min": 69.969,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "stabilomics",
+      "wall_seconds_cv_percent": 2.214,
+      "wall_seconds_max": 0.47184,
+      "wall_seconds_median": 0.468334,
+      "wall_seconds_min": 0.452542
+    },
+    {
+      "case": "n250-p50-b20-c0p08",
+      "commit": "de1313b52d006a8a39528aa474d8d40eaa19de93",
+      "metrics": {
+        "contamination": 0.08,
+        "features": 50,
+        "input_sha256": "dc3b132ee1d6504bc04283be586595c4d51c6db240ee81fc647e6116057b7103",
+        "median_pairwise_jaccard": 1.0,
+        "planted_precision": 1.0,
+        "planted_recall": 1.0,
+        "samples": 250,
+        "selected": [
+          "gene_001",
+          "gene_002",
+          "gene_003"
+        ],
+        "selected_count": 3,
+        "subsamples": 20,
+        "tool_status": "PASS"
+      },
+      "n": 3,
+      "peak_rss_mib_max": 76.125,
+      "peak_rss_mib_median": 75.188,
+      "peak_rss_mib_min": 75.125,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "stabilomics",
+      "wall_seconds_cv_percent": 1.73,
+      "wall_seconds_max": 0.507955,
+      "wall_seconds_median": 0.500267,
+      "wall_seconds_min": 0.490698
+    }
+  ],
+  "date": "2026-09-03",
+  "environment": {
+    "cargo": "cargo 1.98.1 (797e8a9bc 2026-08-05)",
+    "cpu_brand": "Apple M2 Max",
+    "git": "git version 2.39.3 (Apple Git-146)",
+    "hardware_model": "Mac14,6",
+    "logical_cpus": 12,
+    "machine": "arm64",
+    "physical_memory_bytes": "103079215104",
+    "platform": "macOS-14.7.6-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "release": "23.6.0",
+    "rustc": "rustc 1.98.1 (48a229cea 2026-09-01)",
+    "system": "Darwin"
+  },
+  "limitations": "Synthetic engineering evidence; not biological or clinical validation.",
+  "replicates": 3,
+  "schema_version": "1.0",
+  "source_commit": "de1313b52d006a8a39528aa474d8d40eaa19de93",
+  "tool": "stabilomics"
+}
