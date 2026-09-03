@@ -1,0 +1,11 @@
+include CHANGELOG.md
+include CITATION.cff
+include CONTRIBUTING.md
+include DEVELOPMENT.md
+include Makefile
+include PROJECT_REPORT.md
+include SECURITY.md
+include VALIDATION.md
+include VERIFICATION.md
+recursive-include examples *.csv
+recursive-include scripts *.py

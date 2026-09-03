@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Stabilomics"
+version: 0.1.0
+date-released: 2026-09-03
+authors:
+  - family-names: "Barker"
+    given-names: "Will"
+license: MIT
+repository-code: "https://github.com/williamtbarker/stabilomics"
+abstract: >-
+  Deterministic robust stability selection for high-dimensional scientific
+  tables using LAD-LASSO, seeded subsampling, and auditable reports.
