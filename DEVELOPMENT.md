@@ -13,15 +13,6 @@
 - Reports emphasize stability evidence and limitations rather than presenting a single feature list
   as ground truth.
 
-## AI-assisted development disclosure
-
-This project was designed and implemented with substantial assistance from OpenAI Codex under human
-direction. The system researched candidate problems, drafted code and documentation, generated
-synthetic fixtures, and ran automated checks. Will Barker is expected to review the statistical
-assumptions, source relationship, code, tests, and public claims before publication. AI assistance
-does not constitute scientific validation, and no claim in this repository should be accepted solely
-because a test passes.
-
 ## Releasing
 
 1. Create a fresh virtual environment on a supported Python version.

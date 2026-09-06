@@ -190,6 +190,13 @@ The gate checks Ruff formatting and linting, strict mypy, branch-aware pytest co
 clean/contaminated scientific fixture, wheel/source distribution construction, and package metadata
 with Twine. CI runs it on Python 3.10 and 3.12 on Linux and macOS.
 
+## Controlled synthetic benchmark
+
+Across three independent runs, Stabilomics recovered exactly the three planted features in matched
+clean and 8%-contaminated heavy-tailed datasets: precision 1.000, recall 1.000, and median pairwise
+selection-set Jaccard 1.000. These are controlled simulation results, not evidence of biological or
+causal validity. [Method, timings, and limitations](docs/BENCHMARK_MACOS_2026-09-03.md).
+
 ## Scientific limitations
 
 - Stable selection does not establish causality, clinical utility, or biological validity.
