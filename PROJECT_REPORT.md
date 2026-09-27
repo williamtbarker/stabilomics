@@ -1,31 +1,13 @@
-# Project selection report
+# Method provenance and scope
 
-## Decision
+## Scientific motivation
 
-Build **Stabilomics**, an independent Python operationalization of robust LAD-LASSO stability
+**Stabilomics** is an independent Python operationalization of robust LAD-LASSO stability
 selection for high-dimensional scientific tables.
 
-The immediate prompt was Yang, Lu, and Wu's Bioinformatics article, published 17 June 2026 and
+The method is motivated by Yang, Lu, and Wu's Bioinformatics article, published 17 June 2026 and
 corrected/typeset 10 July 2026. It argues that heavy-tailed disease outcomes and contamination can
 make high-dimensional feature selection unstable, and combines LAD-LASSO with repeated subsampling.
-
-## Candidate comparison
-
-Scores use a 1–5 scale. “Defensible” means the claims can be bounded and tested in one release.
-
-| Candidate | Useful | Distinct | Defensible | Feasible | Validatable | Portfolio | Total |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Robust LAD-LASSO stability-selection CLI | 5 | 4 | 5 | 4 | 5 | 5 | **28** |
-| Cross-split biological-sequence leakage auditor | 5 | 3 | 4 | 4 | 4 | 5 | 25 |
-| Spatial-omics batch-biased ranking auditor | 4 | 4 | 3 | 3 | 3 | 4 | 21 |
-
-The sequence-leakage idea was rejected because DataSAIL already offers a sophisticated,
-leakage-reducing splitter, and homology-aware split/audit tools have substantial prior art. A narrow
-auditor might still be useful, but its approximate-similarity claims would require a larger benchmark.
-
-The spatial-omics idea was motivated by BatchSVG (Bioinformatics, July 2026) but was rejected for this
-release because method-specific assumptions and realistic validation data would exceed a narrow,
-fully defensible build.
 
 ## Prior art and contribution boundary
 
@@ -54,10 +36,9 @@ The source repository did not visibly specify a license, so no code was copied. 
 BSD-licensed projects; their binary distributions can include third-party runtime components under
 compatible terms. This repository vendors none of them.
 
-## Strongest reason not to publish
+## Validation boundary
 
 The current scientific validation is controlled and synthetic. It demonstrates deterministic
 behavior, solver invariants, recovery of planted signals, and workflow correctness, but does not
-benchmark against the authors' R implementation or reproduce the paper's real-data results. Publish
-only if that explicitly bounded “independent operational adaptation” is a portfolio asset you are
-comfortable defending.
+benchmark against the authors' R implementation or reproduce the paper's real-data results.
+These results support the implementation's controlled behavior, not real-data scientific validity.

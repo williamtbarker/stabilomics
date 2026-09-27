@@ -3,8 +3,7 @@
 ## Design choices
 
 - Python was selected because NumPy/SciPy provide an auditable scientific-computing interface and the
-  HiGHS linear-program solver on both Linux and macOS. Recent READY portfolio releases already meet
-  the rolling Rust requirement.
+  HiGHS linear-program solver on both Linux and macOS.
 - LAD-LASSO is represented as one linear program with positive/negative feature and residual
   variables. Covariates remain unrestricted and unpenalized.
 - Robust scaling uses median and IQR. Constant columns are errors instead of being silently removed.

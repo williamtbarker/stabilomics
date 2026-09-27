@@ -33,6 +33,8 @@ JSON/CSV/Markdown output was not obvious in the reviewed ecosystem.
 Stabilomics requires Python 3.10 or newer.
 
 ```bash
+git clone https://github.com/williamtbarker/stabilomics.git
+cd stabilomics
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
